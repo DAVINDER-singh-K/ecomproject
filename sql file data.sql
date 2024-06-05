@@ -36,7 +36,7 @@ CREATE TABLE OrderItems (
 );
 
 
--- Insert data into Products table
+
 INSERT INTO Products (product_id, product_name, category, price) VALUES
 (1, 'Laptop', 'Electronics', 50000.00),
 (2, 'Smartphone', 'Electronics', 20000.00),
@@ -44,20 +44,19 @@ INSERT INTO Products (product_id, product_name, category, price) VALUES
 (4, 'Book', 'Books', 500.00),
 (5, 'T-shirt', 'Clothing', 800.00);
 
--- Insert data into Users table
+
 INSERT INTO Users (user_id, user_name, email, phone, city) VALUES
 (1, 'Amit', 'amit@mail.com', '1234567890', 'Dehradun'),
 (2, 'Sunita', 'sunita@mail.com', '0987654321', 'Haridwar'),
 (3, 'Ravi', 'ravi@mail.com', '1112223334', 'Nainital');
 
--- Insert data into Orders table
 INSERT INTO Orders (order_id, user_id, order_date, total_amount) VALUES
 (1, 1, '2023-01-10', 51500.00),
 (2, 2, '2023-01-12', 20000.00),
 (3, 1, '2023-02-05', 800.00),
 (4, 3, '2023-02-07', 51500.00);
 
--- Insert data into OrderItems table
+
 INSERT INTO OrderItems (order_item_id, order_id, product_id, quantity) VALUES
 (1, 1, 1, 1),
 (2, 1, 3, 1),

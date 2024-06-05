@@ -1,0 +1,6 @@
+product_id,product_name,category,price
+1,Laptop,Electronics,50000.00
+2,Smartphone,Electronics,20000.00
+3,Headphones,Accessories,1500.00
+4,Book,Books,500.00
+5,T-shirt,Clothing,800.00
